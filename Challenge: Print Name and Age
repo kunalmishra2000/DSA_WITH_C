@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string name="kunal";
+    float age=99.76 ;
+    cout<<age << endl;
+    cout <<name << endl;
+
+}
