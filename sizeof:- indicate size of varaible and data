@@ -1,0 +1,25 @@
+sizeof:- indicate size of varaible and data
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string name="kunal";
+    float age=99.76 ;
+    cout<<age << endl;
+    cout <<name << endl;
+
+    int size = sizeof(name);
+    cout << "Size of name: " << size << endl;
+    int size1 = sizeof(age);
+    cout << "Size of age: " << size1 << endl;
+
+}
+
+output:-
+
+99.76
+kunal
+Size of name: 24
+Size of age: 4
