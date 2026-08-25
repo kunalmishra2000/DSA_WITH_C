@@ -1,0 +1,12 @@
+#include <iostream> 
+using namespace std;
+int main() { 
+    cout << "helo " << endl;
+    cout << "world" << endl;
+
+}
+
+output :- 
+
+helo 
+world
