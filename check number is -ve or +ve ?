@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cin >>a;
+    if(a>0)
+    cout << "number is +ve"<< a<<endl;
+    else 
+    cout <<" number is -ve"<<a<<endl;
+    return 0;
+
+}
